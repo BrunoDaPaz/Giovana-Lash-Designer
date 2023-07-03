@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giovana Kistner - Lash Designer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="./js/script.js">
+</head>
+
+<body class="imagem-fundo">
+    <div class="container">
+        <h1>Giovana Kistner</h1>
+        <p class="subtitulo">Cílios Blumenau | Lash Designer.</p>
+
+        <div class="tab item-centralizado">
+            <button class="tab-button button" onclick="openTab(event, 'Quem-sou'); scrollToElement('Quem-sou');">Quem sou eu?</button>
+            <button class="tab-button button" onclick="openTab(event, 'Tabela-precos'); scrollToElement('Tabela-precos');">Tabela de Preços</button>
+            <button class="tab-button button" onclick="redirecionar()">Entre em Contato</button>
+        </div>
+
+
+
+        <div id="Quem-sou" class="item-centralizado">
+            <img class="responsive-image" src="./imagens/QuemSouEu.jpg" alt="QuemSouEu">
+        </div>
+
+
+        <section id="Tabela-precos">
+            <h2>TABELA DE PREÇOS</h2>
+
+            <div class="item-centralizado">
+
+                <div class="quadrado-grande texto-centralizado">
+
+                    <div class="balao ">
+                        <h2>Cílios</h2>
+                        <table>
+                            <tr>
+                                <td id="celula-servico">Fio a fio</td>
+                                <td>R$ 90,00</td>
+                            </tr>
+                            <tr>
+                                <td id="celula-servico">Volume Brasileiro</td>
+                                <td>R$ 150,00</td>
+                            </tr>
+                        </table>
+                        <h2>Manuntenção dos Cílios</h2>
+                        <table>
+                            <tr>
+                                <td id="celula-servico">Fio a fio - 15 dias</td>
+                                <td>R$ 50,00</td>
+                            </tr>
+                            <tr>
+                                <td id="celula-servico">Fio a fio - 25 dias</td>
+                                <td>R$ 60,00</td>
+                            </tr>
+                            <tr>
+                                <td id="celula-servico">Volume Brasileiro - 15 dias</td>
+                                <td>R$ 60,00</td>
+                            </tr>
+                            <tr>
+                                <td id="celula-servico">Volume Brasileiro - 25 dias</td>
+                                <td>R$ 70,00</td>
+                            </tr>
+                        </table>
+                        <h2>Unhas</h2>
+                        <table>
+                            <tr>
+                                <td id="celula-servico">Pé e Mão Tradicional</td>
+                                <td>R$ 55,00</td>
+                            </tr>
+                            <tr>
+                                <td id="celula-servico">Esmaltação em Gel</td>
+                                <td>R$ 60,00</td>
+                            </tr>
+                        </table>
+                        <h2>Sombrancelhas</h2>
+                        <table>
+                            <tr>
+                                <td id="celula-servico">Limpeza</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div id="servicos">
+            <h2>CILHUDAS</h2>
+
+            <div class="image-container">
+                <div>
+                    <img src="./imagens/cilhuda2.jpeg" alt="Imagem 1">
+                </div>
+                <div>
+                    <img src="./imagens/cilhuda.jpeg" alt="Imagem 1">
+                </div>
+                <div>
+                    <img src="./imagens/cilhuda3.jpeg" alt="Imagem 1">
+                </div>
+                <div>
+                    <img src="./imagens/cilhuda4.jpeg" alt="Imagem 1">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="./js/script.js "></script>
+</body>
+
+</html>
