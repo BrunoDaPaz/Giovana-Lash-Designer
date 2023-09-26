@@ -1,24 +1,26 @@
-function openTab(event, tabName) {
-    var i, tabButton;
+openMenu.addEventListener('click', () => {
+    menu.style.display = 'flex'
+    menu.style.right = (menu.offsetWidth * -1) + 'px'
+    openMenu.style.display = 'none'
+    setTimeout(() => {
+        menu.style.opacity = '1'
+        menu.style.right = '0'
+    }, 10)
+})
 
-    tabButton = document.getElementsByClassName("tab-button");
-    for (i = 0; i < tabButton.length; i++) {
-        tabButton[i].classList.remove("active");
-    }
+closeMenu.addEventListener('click', () => {
+    menu.style.opacity = '0'
+    menu.style.right = (menu.offsetWidth * -1) + 'px'
+    setTimeout(() => {
+        menu.removeAttribute('style')
+        openMenu.removeAttribute('style')
 
-    document.getElementById(tabName).style.display = "block";
-    event.currentTarget.classList.add("active");
-}
+    }, 200)
 
-function scrollToElement(elementId) {
-    var element = document.getElementById(elementId);
-    if (element) {
-        element.scrollIntoView({
-            behavior: 'smooth'
-        });
-    }
-}
+})
 
-function redirecionar() {
-    window.open("https://api.whatsapp.com/message/QLVVFV3RGK33K1?autoload=1&app_absent=0", "_blank");
-}
+const imagemClicavel = document.getElementById('logo');
+
+imagemClicavel.addEventListener('click', function() {
+    window.location.href = '#';
+});
