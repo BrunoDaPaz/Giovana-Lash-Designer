@@ -175,3 +175,7 @@ a {
     transform: scale(0.8);
     margin-top: -75px;
 }
+
+#borda-imagem {
+    border-radius: 10px;
+}
