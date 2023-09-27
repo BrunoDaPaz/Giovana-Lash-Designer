@@ -27,5 +27,5 @@ imagemClicavel.addEventListener('click', function() {
 });
 
 document.querySelector('.imagem-link').addEventListener('click', function() {
-    window.location.href = '/';
+    window.location.href = '#';
 });
