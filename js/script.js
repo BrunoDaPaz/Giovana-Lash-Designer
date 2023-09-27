@@ -25,7 +25,3 @@ closeMenu.addEventListener('click', () => {
 imagemClicavel.addEventListener('click', function() {
     window.location.href = '/';
 });
-
-// function redirecionar() {
-//     window.open("https://api.whatsapp.com/message/QLVVFV3RGK33K1?autoload=1&app_absent=0", "_blank");
-// };
