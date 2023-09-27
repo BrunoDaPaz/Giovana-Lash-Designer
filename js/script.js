@@ -27,5 +27,5 @@ imagemClicavel.addEventListener('click', function() {
 });
 
 document.querySelector('.imagem-link').addEventListener('click', function() {
-    window.location.href = '#';
+    window.location.href = 'https://api.whatsapp.com/message/QLVVFV3RGK33K1?autoload=1&app_absent=0';
 });
